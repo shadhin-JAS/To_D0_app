@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050713"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".homeFragment">
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          tools:listitem="@layout/item_design"
+            />
+
+      <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+          android:id="@+id/addTV"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintBottom_toBottomOf="parent"
+          android:text="Add"
+          android:textSize="29sp"
+          android:textColor="#B30F4B"
+          android:backgroundTint="#1A2985"
+          app:icon="@drawable/baseline_add_24"
+          app:iconTint="@color/white"
+          android:layout_margin="33sp"
+
+          />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
